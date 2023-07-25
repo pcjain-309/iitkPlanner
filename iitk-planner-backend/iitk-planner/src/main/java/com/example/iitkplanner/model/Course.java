@@ -26,10 +26,10 @@ public class Course {
     private Long credits;
 
 //    @OneToMany(cascade = CascadeType.ALL, orphanRemoval = true)
-//    @JoinColumn(name = "course_id")
 //    private List<Timings> timings = new ArrayList<>();
 
-    @OneToMany(mappedBy = "course")
+
+    @OneToMany(mappedBy = "course", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<Timings> timings;
     // Constructors
 

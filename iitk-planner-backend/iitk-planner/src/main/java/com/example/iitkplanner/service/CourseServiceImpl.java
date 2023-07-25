@@ -1,6 +1,7 @@
 package com.example.iitkplanner.service;
 
 import com.example.iitkplanner.model.Course;
+import com.example.iitkplanner.model.Timings;
 import com.example.iitkplanner.repository.CourseRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -16,13 +17,16 @@ public class CourseServiceImpl implements CourseService{
 
     @Override
     public Course saveCourse(Course course) {
+        for (Timings timing : course.getTimings()) {
+            timing.setCourse(course);
+        }
         System.out.println(course.toString());
         return courseRepository.save(course);
     }
 
     @Override
     public List<Course> getAllCourses() {
-        System.out.println(courseRepository.findAll());
+//        System.out.println(courseRepository.findAll());
         return courseRepository.findAll();
     }
 
@@ -35,6 +39,10 @@ public class CourseServiceImpl implements CourseService{
             existingCourse.setProfessor(updatedCourse.getProfessor());
             existingCourse.setCredits(updatedCourse.getCredits());
             existingCourse.setTimings(updatedCourse.getTimings());
+
+            for (Timings timing : existingCourse.getTimings()) {
+                timing.setCourse(existingCourse);
+            }
             System.out.println("Hello");
             System.out.println(existingCourse.toString());
             return courseRepository.save(existingCourse);

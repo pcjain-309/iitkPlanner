@@ -43,6 +43,10 @@ public class Timings {
         this.startTime = startTime;
     }
 
+    public void setCourse(Course course) {
+        this.course = course;
+    }
+
     public String getEndTime() {
         return endTime;
     }

@@ -15,6 +15,9 @@ public class Timings {
     @Column(name = "endTime")
     private String endTime;
 
+    @Column(name = "day")
+    private String day;
+
     @ManyToOne
     @JoinColumn(name = "course_id")
     private Course course;
@@ -53,6 +56,15 @@ public class Timings {
 
     public void setEndTime(String endTime) {
         this.endTime = endTime;
+    }
+
+
+    public String getDay() {
+        return day;
+    }
+
+    public void setDay(String day) {
+        this.day = day;
     }
 
     // toString() method for logging

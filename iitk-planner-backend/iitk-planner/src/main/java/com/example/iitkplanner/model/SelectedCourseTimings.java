@@ -2,8 +2,8 @@ package com.example.iitkplanner.model;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name = "timings")
-public class Timings {
+@Table(name = "selected_course_timings")
+public class SelectedCourseTimings {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -20,14 +20,14 @@ public class Timings {
 
     @ManyToOne
     @JoinColumn(name = "course_id")
-    private Course course;
+    private SelectedCourse selectedCourse;
 
     // Constructors
 
-    public Timings() {
+    public SelectedCourseTimings() {
     }
 
-    public Timings(String startTime, String endTime) {
+    public SelectedCourseTimings(String startTime, String endTime) {
         this.startTime = startTime;
         this.endTime = endTime;
     }
@@ -46,8 +46,8 @@ public class Timings {
         this.startTime = startTime;
     }
 
-    public void setCourse(Course course) {
-        this.course = course;
+    public void setCourse(SelectedCourse selectedCourse) {
+        this.selectedCourse = selectedCourse;
     }
 
     public String getEndTime() {
@@ -71,7 +71,7 @@ public class Timings {
 
     @Override
     public String toString() {
-        return "Timings{" +
+        return "SelectedCourseTimings{" +
                 "id=" + id +
                 ", startTime='" + startTime + '\'' +
                 ", endTime='" + endTime + '\'' +

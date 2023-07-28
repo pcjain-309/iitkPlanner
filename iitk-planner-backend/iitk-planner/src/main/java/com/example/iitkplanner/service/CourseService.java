@@ -6,6 +6,7 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 public interface CourseService {
+
     public Course saveCourse(Course course);
 
     List<Course> getAllCourses();
@@ -13,4 +14,7 @@ public interface CourseService {
     Course updateCourse(Long id, Course updatedCourse);
 
     void deleteCourse(Long id);
+
+    Course getCourseByCourseCode(String courseCode);
+
 }

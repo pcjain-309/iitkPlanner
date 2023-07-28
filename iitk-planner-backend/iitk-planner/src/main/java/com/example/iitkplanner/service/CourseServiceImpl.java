@@ -30,6 +30,11 @@ public class CourseServiceImpl implements CourseService{
         return courseRepository.findAll();
     }
 
+    @Override
+    public Course getCourseByCourseCode(String courseCode){
+        return courseRepository.findByCourseCode(courseCode);
+    }
+
     public Course updateCourse(Long id, Course updatedCourse) {
         Optional<Course> existingCourseOptional = courseRepository.findById(id);
         if (existingCourseOptional.isPresent()) {

@@ -29,6 +29,7 @@ import java.util.*;
 
 
 @RestController
+@CrossOrigin(origins = "https://iitk-planner.web.app/")
 @RequestMapping("/auth")
 public class AuthController {
 
@@ -353,6 +354,8 @@ public class AuthController {
 
     @GetMapping("/isRegistered/{email}")
     public ResponseEntity<Boolean> isUserRegistered(@PathVariable String email) {
+
+        System.out.println(email);
         // Check if the user with the given email is registered
         User user = userRepository.findByEmail(email);
 

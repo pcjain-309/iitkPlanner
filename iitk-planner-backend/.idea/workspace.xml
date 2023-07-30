@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0ca4cd7-e15a-45f5-96af-0a04e1e6e452" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iitk-planner/dbAdded.py" beforeDir="false" afterPath="$PROJECT_DIR$/iitk-planner/dbAdded.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iitk-planner/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/iitk-planner/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iitk-planner/src/main/java/com/example/iitkplanner/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/iitk-planner/src/main/java/com/example/iitkplanner/controller/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iitk-planner/src/main/java/com/example/iitkplanner/controller/CourseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/iitk-planner/src/main/java/com/example/iitkplanner/controller/CourseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iitk-planner/src/main/java/com/example/iitkplanner/controller/SelectedCourseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/iitk-planner/src/main/java/com/example/iitkplanner/controller/SelectedCourseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iitk-planner/src/main/java/com/example/iitkplanner/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/iitk-planner/src/main/java/com/example/iitkplanner/controller/UserController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +119,7 @@
       <workItem from="1690696472325" duration="623000" />
       <workItem from="1690702736245" duration="370000" />
       <workItem from="1690703217702" duration="2254000" />
-      <workItem from="1690749016200" duration="710000" />
+      <workItem from="1690749016200" duration="1636000" />
     </task>
     <servers />
   </component>
@@ -141,62 +142,62 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/iitk-planner/src/main/java/com/example/iitkplanner/controller/AuthController.java</url>
-          <line>64</line>
+          <line>65</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/iitk-planner/src/main/java/com/example/iitkplanner/controller/AuthController.java</url>
-          <line>66</line>
+          <line>67</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/iitk-planner/src/main/java/com/example/iitkplanner/controller/AuthController.java</url>
-          <line>69</line>
+          <line>70</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/iitk-planner/src/main/java/com/example/iitkplanner/controller/AuthController.java</url>
-          <line>70</line>
+          <line>71</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/iitk-planner/src/main/java/com/example/iitkplanner/controller/AuthController.java</url>
-          <line>88</line>
+          <line>89</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/iitk-planner/src/main/java/com/example/iitkplanner/controller/AuthController.java</url>
-          <line>101</line>
+          <line>102</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/iitk-planner/src/main/java/com/example/iitkplanner/controller/AuthController.java</url>
-          <line>99</line>
+          <line>100</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/iitk-planner/src/main/java/com/example/iitkplanner/controller/AuthController.java</url>
-          <line>112</line>
+          <line>113</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/iitk-planner/src/main/java/com/example/iitkplanner/controller/AuthController.java</url>
-          <line>198</line>
+          <line>199</line>
           <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/iitk-planner/src/main/java/com/example/iitkplanner/controller/AuthController.java</url>
-          <line>282</line>
+          <line>283</line>
           <option name="timeStamp" value="48" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/iitk-planner/src/main/java/com/example/iitkplanner/controller/AuthController.java</url>
-          <line>238</line>
+          <line>239</line>
           <option name="timeStamp" value="49" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/iitk-planner/src/main/java/com/example/iitkplanner/controller/AuthController.java</url>
-          <line>366</line>
+          <line>369</line>
           <properties class="com.example.iitkplanner.controller.AuthController" method="generateToken">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />

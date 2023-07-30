@@ -29,7 +29,7 @@ i = 0;
 for course in data:
     i = i + 1;
 
-    if(i<=145):
+    if(i<=174):
         continue;
 
     # if(i==10):

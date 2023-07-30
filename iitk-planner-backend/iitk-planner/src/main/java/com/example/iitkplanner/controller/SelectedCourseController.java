@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@CrossOrigin(origins = "https://iitk-planner.web.app/")
+@CrossOrigin(origins = "https://iitk-planner.web.app")
 @RestController
 @RequestMapping("/selectedCourse")
 public class SelectedCourseController {

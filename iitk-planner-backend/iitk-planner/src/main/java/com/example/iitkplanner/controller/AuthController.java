@@ -29,7 +29,7 @@ import java.util.*;
 
 
 @RestController
-@CrossOrigin(origins = "https://iitk-planner.web.app/")
+@CrossOrigin(origins = "https://iitk-planner.web.app")
 @RequestMapping("/auth")
 public class AuthController {
 

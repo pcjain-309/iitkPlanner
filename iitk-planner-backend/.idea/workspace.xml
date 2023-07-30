@@ -5,17 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0ca4cd7-e15a-45f5-96af-0a04e1e6e452" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/iitk-planner/src/main/java/com/example/iitkplanner/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iitk-planner/src/main/java/com/example/iitkplanner/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/iitk-planner/src/main/java/com/example/iitkplanner/controller/AuthController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iitk-planner/src/main/java/com/example/iitkplanner/controller/SelectedCourseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/iitk-planner/src/main/java/com/example/iitkplanner/controller/SelectedCourseController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iitk-planner/src/main/java/com/example/iitkplanner/dto/OTPVerificationRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/iitk-planner/src/main/java/com/example/iitkplanner/dto/OTPVerificationRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iitk-planner/src/main/java/com/example/iitkplanner/model/SelectedCourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/iitk-planner/src/main/java/com/example/iitkplanner/model/SelectedCourse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iitk-planner/src/main/java/com/example/iitkplanner/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/iitk-planner/src/main/java/com/example/iitkplanner/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iitk-planner/src/main/java/com/example/iitkplanner/repository/SelectedCourseRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/iitk-planner/src/main/java/com/example/iitkplanner/repository/SelectedCourseRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iitk-planner/src/main/java/com/example/iitkplanner/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/iitk-planner/src/main/java/com/example/iitkplanner/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iitk-planner/src/main/java/com/example/iitkplanner/service/SelectedCourseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/iitk-planner/src/main/java/com/example/iitkplanner/service/SelectedCourseService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iitk-planner/src/main/java/com/example/iitkplanner/service/SelectedCourseServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/iitk-planner/src/main/java/com/example/iitkplanner/service/SelectedCourseServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iitk-planner/dbAdded.py" beforeDir="false" afterPath="$PROJECT_DIR$/iitk-planner/dbAdded.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iitk-planner/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/iitk-planner/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +113,7 @@
       <workItem from="1690684299720" duration="6565000" />
       <workItem from="1690696472325" duration="623000" />
       <workItem from="1690702736245" duration="370000" />
-      <workItem from="1690703217702" duration="331000" />
+      <workItem from="1690703217702" duration="2254000" />
     </task>
     <servers />
   </component>

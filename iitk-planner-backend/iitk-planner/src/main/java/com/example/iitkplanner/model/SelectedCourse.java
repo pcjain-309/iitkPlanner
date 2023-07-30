@@ -23,7 +23,7 @@ public class SelectedCourse {
     private String professor;
 
     @Column(name = "credits")
-    private Long credits;
+    private Integer credits;
 
 //    @OneToMany(cascade = CascadeType.ALL, orphanRemoval = true)
 //    private List<Timings> SelectedCourseTimings = new ArrayList<>();
@@ -31,12 +31,17 @@ public class SelectedCourse {
 
     @OneToMany(mappedBy = "selectedCourse", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<SelectedCourseTimings> selectedCourseTimings;
+
+
+    @ManyToOne
+    @JoinColumn(name = "user_id")
+    private User user;
     // Constructors
 
     public SelectedCourse() {
     }
 
-    public SelectedCourse(String name, String courseCode, String professor, Long credits, List<SelectedCourseTimings> selectedCourseTimings) {
+    public SelectedCourse(String name, String courseCode, String professor, Integer credits, List<SelectedCourseTimings> selectedCourseTimings) {
         this.name = name;
         this.courseCode = courseCode;
         this.professor = professor;
@@ -50,7 +55,7 @@ public class SelectedCourse {
         return id;
     }
 
-    public Long getCredits(){
+    public Integer getCredits(){
         return credits;
     }
 
@@ -77,7 +82,7 @@ public class SelectedCourse {
         this.id = id;
     }
 
-    public void setCredits(Long credits){
+    public void setCredits(Integer credits){
         this.credits = credits;
     }
 
@@ -108,6 +113,12 @@ public class SelectedCourse {
             }
         }
     }
+
+    // Add a helper method to set the user for this selected course
+    public void setUser(User user) {
+        this.user = user;
+    }
+
 
     public void addTiming(SelectedCourseTimings selectedCourseTiming) {
         selectedCourseTimings.add(selectedCourseTiming);

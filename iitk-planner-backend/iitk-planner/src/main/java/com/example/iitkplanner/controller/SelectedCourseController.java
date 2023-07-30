@@ -6,6 +6,7 @@ import com.example.iitkplanner.repository.CourseRepository;
 import com.example.iitkplanner.service.CourseService;
 import com.example.iitkplanner.service.SelectedCourseService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -25,6 +26,16 @@ public class SelectedCourseController {
         return course;
     }
 
+
+    @GetMapping("/{id}")
+    public ResponseEntity<SelectedCourse> getSelectedCourseById(@PathVariable Long id) {
+        SelectedCourse selectedCourse = selectedCourseService.getSelectedCourseById(id);
+        if (selectedCourse == null) {
+            return ResponseEntity.notFound().build();
+        }
+        return ResponseEntity.ok(selectedCourse);
+    }
+
     @GetMapping("/getAll")
     public List<SelectedCourse> getAllCourses() {
         System.out.println("Here Here");
@@ -35,7 +46,6 @@ public class SelectedCourseController {
 
     @PutMapping("/{id}")
     public SelectedCourse updateCourse(@PathVariable Long id, @RequestBody SelectedCourse updatedCourse) {
-        System.out.println("Hello");
         System.out.println(updatedCourse.toString());
         return selectedCourseService.updateCourse(id, updatedCourse);
     }

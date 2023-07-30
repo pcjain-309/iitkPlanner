@@ -14,4 +14,6 @@ public interface SelectedCourseService {
     SelectedCourse updateCourse(Long id, SelectedCourse updatedCourse);
 
     void deleteCourse(Long id);
+
+    SelectedCourse getSelectedCourseById(Long id);
 }

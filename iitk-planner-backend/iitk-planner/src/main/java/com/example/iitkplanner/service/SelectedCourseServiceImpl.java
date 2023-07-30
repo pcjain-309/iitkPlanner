@@ -51,6 +51,11 @@ public class SelectedCourseServiceImpl implements SelectedCourseService{
         }
     }
 
+    public SelectedCourse getSelectedCourseById(Long id) {
+        Optional<SelectedCourse> selectedCourseOptional = selectedCourseRepository.findById(id);
+        return selectedCourseOptional.orElse(null);
+    }
+
     public void deleteCourse(Long id) {
         selectedCourseRepository.deleteById(id);
     }

@@ -7,6 +7,9 @@ public class OTPVerificationRequest {
     @NotBlank(message = "Email is required")
     private String email;
 
+    @NotBlank(message = "Make sure that password is correct")
+    private String password;
+
     @NotBlank(message = "OTP is required")
     private String otp;
 
@@ -15,9 +18,10 @@ public class OTPVerificationRequest {
     public OTPVerificationRequest() {
     }
 
-    public OTPVerificationRequest(String email, String otp) {
+    public OTPVerificationRequest(String email, String otp, String password) {
         this.email = email;
         this.otp = otp;
+        this.password = password;
     }
 
     // Getters
@@ -30,6 +34,10 @@ public class OTPVerificationRequest {
         return otp;
     }
 
+    public String getPassword(){
+        return password;
+    }
+
     // Setters
 
     public void setEmail(String email) {
@@ -39,4 +47,9 @@ public class OTPVerificationRequest {
     public void setOtp(String otp) {
         this.otp = otp;
     }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
 }

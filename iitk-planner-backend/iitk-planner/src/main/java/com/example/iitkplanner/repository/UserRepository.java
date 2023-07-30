@@ -11,5 +11,7 @@ public interface UserRepository extends JpaRepository<User, Long> {
     // Custom query to find a user by email
     User findByEmail(String email);
 
+//    User findById(Long id);
+
     // Add more custom queries as needed for specific user-related operations
 }

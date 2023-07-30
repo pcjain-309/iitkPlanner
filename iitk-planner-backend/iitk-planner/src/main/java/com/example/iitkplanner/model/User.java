@@ -2,6 +2,11 @@ package com.example.iitkplanner.model;
 
 import jakarta.persistence.*;
 
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+
 @Entity
 @Table(name = "users")
 public class User {
@@ -24,6 +29,9 @@ public class User {
 
     @Column
     private String batch;
+
+    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true)
+    private List<SelectedCourse> selectedCourses;
 
     // Constructors
 
@@ -61,6 +69,10 @@ public class User {
         return batch;
     }
 
+//    public Set<SelectedCourse> getSelectedCourses() {
+//        return selectedCourses;
+//    }
+
     // Setters
 
     public void setId(Long id) {
@@ -85,5 +97,13 @@ public class User {
 
     public void setBatch(String batch) {
         this.batch = batch;
+    }
+
+    public List<SelectedCourse> getSelectedCourses() {
+        return selectedCourses;
+    }
+
+    public void setSelectedCourses(List<SelectedCourse> selectedCourses) {
+        this.selectedCourses = selectedCourses;
     }
 }

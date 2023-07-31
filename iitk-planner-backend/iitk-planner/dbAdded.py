@@ -25,6 +25,14 @@ cursor = connection.cursor()
 
 # Iterate through each course entry in the JSON data
 for course in data:
+    i = i + 1
+
+    if(i<=991):
+        continue
+
+    # if(i==10):
+    #     break
+
     course_id = course['id']
     name = course['name']
     course_code = course['courseCode']

@@ -29,6 +29,10 @@ import java.util.*;
 
 
 @RestController
+@CrossOrigin(origins = {
+        "https://iitk-planner.web.app",
+        "http://localhost:3000"
+})
 @RequestMapping("/auth")
 public class AuthController {
 

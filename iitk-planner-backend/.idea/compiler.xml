@@ -11,7 +11,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="iitk-planner" target="20" />
+      <module name="iitk-planner" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

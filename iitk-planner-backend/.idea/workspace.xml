@@ -6,12 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="b0ca4cd7-e15a-45f5-96af-0a04e1e6e452" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iitk-planner/changed1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/iitk-planner/changed1.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/iitk-planner/dbAdded.py" beforeDir="false" afterPath="$PROJECT_DIR$/iitk-planner/dbAdded.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iitk-planner/src/main/java/com/example/iitkplanner/config/CorsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/iitk-planner/src/main/java/com/example/iitkplanner/config/CorsConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iitk-planner/src/main/java/com/example/iitkplanner/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/iitk-planner/src/main/java/com/example/iitkplanner/controller/AuthController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iitk-planner/src/main/java/com/example/iitkplanner/controller/CourseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/iitk-planner/src/main/java/com/example/iitkplanner/controller/CourseController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iitk-planner/src/main/java/com/example/iitkplanner/controller/SelectedCourseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/iitk-planner/src/main/java/com/example/iitkplanner/controller/SelectedCourseController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iitk-planner/src/main/java/com/example/iitkplanner/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/iitk-planner/src/main/java/com/example/iitkplanner/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iitk-planner/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/iitk-planner/output.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,6 +120,9 @@
       <workItem from="1690703217702" duration="2254000" />
       <workItem from="1690749016200" duration="2764000" />
       <workItem from="1690767814255" duration="882000" />
+      <workItem from="1690834413439" duration="4864000" />
+      <workItem from="1690857474117" duration="2869000" />
+      <workItem from="1690882814372" duration="1069000" />
     </task>
     <servers />
   </component>
@@ -201,7 +201,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/iitk-planner/src/main/java/com/example/iitkplanner/controller/AuthController.java</url>
           <line>372</line>
-          <properties class="com.example.iitkplanner.controller.AuthController">
+          <properties class="com.example.iitkplanner.config.controller.AuthController">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>

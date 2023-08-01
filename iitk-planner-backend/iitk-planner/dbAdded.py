@@ -24,16 +24,9 @@ with open('output.json') as json_file:
 # Assuming you have a cursor object
 cursor = connection.cursor()
 
-i = 0;
+
 # Iterate through each course entry in the JSON data
 for course in data:
-    i = i + 1;
-
-    if(i<=174):
-        continue;
-
-    # if(i==10):
-    #     break
     course_id = course['id']
     name = course['name']
     course_code = course['courseCode']
@@ -58,9 +51,6 @@ for course in data:
         sql_insert_timing = "INSERT INTO timings (course_id, start_time, end_time, day) VALUES (%s, %s, %s, %s)"
         cursor.execute(sql_insert_timing, (course_id, start_time, end_time, day))
     connection.commit()
-    # break;
-
-# Commit the changes and close the connection
 
 cursor.close()
 connection.close()

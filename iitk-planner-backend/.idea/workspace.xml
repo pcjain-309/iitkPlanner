@@ -5,6 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0ca4cd7-e15a-45f5-96af-0a04e1e6e452" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iitk-planner/changed1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/iitk-planner/changed1.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iitk-planner/dbAdded.py" beforeDir="false" afterPath="$PROJECT_DIR$/iitk-planner/dbAdded.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iitk-planner/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/iitk-planner/output.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/iitk-planner/src/main/java/com/example/iitkplanner/config/CorsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/iitk-planner/src/main/java/com/example/iitkplanner/config/CorsConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,26 +59,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/bhuvn/Desktop/Dev Purposes/IITK-Planner/frontend-iitkPlanner",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0",
-    "spring.configuration.checksum": "ac83c4a087879584eef4a64cb0a7d371"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/bhuvn/Desktop/Dev Purposes/IITK-Planner/frontend-iitkPlanner&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;ac83c4a087879584eef4a64cb0a7d371&quot;
   }
 }]]></component>
   <component name="RecentsManager">
@@ -115,7 +119,11 @@
       <workItem from="1690696472325" duration="623000" />
       <workItem from="1690702736245" duration="370000" />
       <workItem from="1690703217702" duration="2254000" />
-      <workItem from="1690749016200" duration="2154000" />
+      <workItem from="1690749016200" duration="2764000" />
+      <workItem from="1690767814255" duration="882000" />
+      <workItem from="1690834413439" duration="4864000" />
+      <workItem from="1690857474117" duration="2869000" />
+      <workItem from="1690882814372" duration="1069000" />
     </task>
     <servers />
   </component>
@@ -138,63 +146,63 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/iitk-planner/src/main/java/com/example/iitkplanner/controller/AuthController.java</url>
-          <line>65</line>
+          <line>68</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/iitk-planner/src/main/java/com/example/iitkplanner/controller/AuthController.java</url>
-          <line>67</line>
+          <line>70</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/iitk-planner/src/main/java/com/example/iitkplanner/controller/AuthController.java</url>
-          <line>70</line>
+          <line>73</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/iitk-planner/src/main/java/com/example/iitkplanner/controller/AuthController.java</url>
-          <line>71</line>
+          <line>74</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/iitk-planner/src/main/java/com/example/iitkplanner/controller/AuthController.java</url>
-          <line>89</line>
+          <line>92</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/iitk-planner/src/main/java/com/example/iitkplanner/controller/AuthController.java</url>
-          <line>102</line>
+          <line>105</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/iitk-planner/src/main/java/com/example/iitkplanner/controller/AuthController.java</url>
-          <line>100</line>
+          <line>103</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/iitk-planner/src/main/java/com/example/iitkplanner/controller/AuthController.java</url>
-          <line>113</line>
+          <line>116</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/iitk-planner/src/main/java/com/example/iitkplanner/controller/AuthController.java</url>
-          <line>199</line>
+          <line>202</line>
           <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/iitk-planner/src/main/java/com/example/iitkplanner/controller/AuthController.java</url>
-          <line>283</line>
+          <line>286</line>
           <option name="timeStamp" value="48" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/iitk-planner/src/main/java/com/example/iitkplanner/controller/AuthController.java</url>
-          <line>239</line>
+          <line>242</line>
           <option name="timeStamp" value="49" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/iitk-planner/src/main/java/com/example/iitkplanner/controller/AuthController.java</url>
-          <line>369</line>
-          <properties class="com.example.iitkplanner.controller.AuthController" method="generateToken">
+          <line>372</line>
+          <properties class="com.example.iitkplanner.config.controller.AuthController">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>

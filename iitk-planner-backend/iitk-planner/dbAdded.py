@@ -11,11 +11,15 @@ import json
 # Assuming you have already established a connection to the database
 # Replace 'your_database_info' with your actual database connection details
 connection = MySQLdb.connect(
-    host='containers-us-west-149.railway.app',
-    user='root',
-    password='EPLaJhAjoHR4gvhgzlba',
-    database='railway',
-    port = 6059,
+    host='aws.connect.psdb.cloud',
+    user='l5lfsh8l3e8di26wl33e',
+    password='pscale_pw_Lakf8JzpZ7FXhlHhnacXRRAmpBGOqqczUj9j85qmiB',
+    database='pre-rizzister',
+    autocommit = True,
+    ssl_mode = "VERIFY_IDENTITY",
+    ssl      = {
+    "ca": "./cacert.pem",
+    }
 )
 
 with open('output.json') as json_file:
@@ -26,7 +30,12 @@ cursor = connection.cursor()
 
 
 # Iterate through each course entry in the JSON data
+i = 0
 for course in data:
+
+    if(i <=796):
+        i = i + 1
+        continue
     course_id = course['id']
     name = course['name']
     course_code = course['courseCode']
